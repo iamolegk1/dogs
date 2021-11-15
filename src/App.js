@@ -1,7 +1,11 @@
-import "./App.css";
+import Dogs from "./page/index";
 
 const App = () => {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Dogs />
+    </div>
+  );
 };
 
 export default App;
