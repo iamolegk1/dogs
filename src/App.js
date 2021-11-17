@@ -1,9 +1,9 @@
-import Dogs from "./page/index";
+import MainPage from "./page/MainPage";
 
 const App = () => {
   return (
     <div>
-      <Dogs />
+      <MainPage />
     </div>
   );
 };
