@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.images {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -25,6 +31,7 @@
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .button:before {
